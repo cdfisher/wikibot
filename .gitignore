@@ -1,0 +1,12 @@
+# Do not include account credentials or user agent.
+/bot/agent.txt
+/bot/creds.file
+
+# Do not include files used for basic local testing.
+/test*.py
+
+# Do not include files generated as bot output.
+/*.csv
+
+# IDE files
+/.idea/*
